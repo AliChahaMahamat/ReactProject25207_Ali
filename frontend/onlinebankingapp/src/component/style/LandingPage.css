@@ -1,0 +1,26 @@
+/* LandingPage.css */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.landing {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+    background: url('https://www.nbc.ca/content/dam/fragment/images/ten-reasons-internet-banking-opt.jpg') no-repeat center center;
+    background-size: cover;
+    min-height: 100vh; /* Ensure it covers at least the viewport height */
+    color: #0c0b0b;
+}
+
+.landing-content {
+    max-width: 600px;
+    background: rgb(255, 255, 255); /* Add a slight background for readability */
+    padding: 2rem;
+    border-radius: 10px;
+}

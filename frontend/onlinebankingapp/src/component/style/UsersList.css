@@ -1,0 +1,170 @@
+/* UsersList.css */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url('https://insidetelecom.com/wp-content/uploads/2020/02/Digital-banking-platform-making-opt.jpg') no-repeat center center;
+  background-size: cover;
+  font-family: Arial, sans-serif;
+}
+
+.users-list-container {
+  background: rgba(0, 0, 0, 0.75);
+  padding: 2rem;
+  border-radius: 10px;
+  color: white;
+  width: 90%;
+  max-width: 1000px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.search-input {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.add-button, .download-button, .logout-button {
+  padding: 0.75rem 1.5rem;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  margin: 0.5rem 0.5rem 1rem 0;
+}
+
+.download-button {
+  background-color: #2196F3;
+}
+
+.logout-button {
+  background-color: #f44336;
+  float: right;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1rem;
+}
+
+th, td {
+  padding: 0.75rem;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  cursor: pointer;
+  user-select: none;
+}
+
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.pagination-button {
+  padding: 0.5rem 1rem;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.pagination-button.disabled {
+  background-color: #a5d6a7;
+  cursor: not-allowed;
+}
+
+.page-info {
+  margin: 0 1rem;
+}
+
+.confirmation-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.75);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.confirmation-dialog {
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  text-align: center;
+  color: black;
+  max-width: 400px;
+  width: 90%;
+}
+
+.confirmation-actions {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1rem;
+}
+
+.confirm-button, .cancel-button, .confirm-delete-button, .cancel-delete-button {
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.confirm-button, .confirm-delete-button {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.cancel-button, .cancel-delete-button {
+  background-color: #f44336;
+  color: white;
+}
+
+.edit-button, .delete-button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.edit-button {
+  background-color: #2196F3;
+  color: white;
+}
+
+.delete-button {
+  background-color: #f44336;
+  color: white;
+}
+
+.edit-button:hover, .delete-button:hover {
+  opacity: 0.8;
+}

@@ -1,0 +1,92 @@
+/* General styles for the login form */
+section {
+  background: #ffffff;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 30px;
+  width: 100%;
+  max-width: 450px;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.inputbox {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.inputbox ion-icon {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 20px;
+  color: #888;
+}
+
+.inputbox input {
+  width: 100%;
+  padding: 10px 10px 10px 40px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+input:focus {
+  border-color: #007bff;
+  background-color: #fff;
+}
+
+label {
+  position: absolute;
+  left: 40px;
+  top: -10px;
+  background: white;
+  padding: 0 5px;
+  font-size: 12px;
+}
+
+.error-message {
+  color: #e63946;
+  text-align: center;
+}
+
+button {
+  width: 100%;
+  background: #007bff;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+.social-login {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.btn-social {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  background: #f3f4f6;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #333;
+}
+
+.btn-social:hover {
+  background: #e9ecef;
+}
